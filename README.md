@@ -1,6 +1,11 @@
 # hello-prisma
 
-### usage
+## Prisma example projects.
+
+- [Prisma](https://www.prisma.io/)
+- [Github](https://github.com/prisma/prisma)
+
+### Usage
 
 docker
 
@@ -14,7 +19,7 @@ migration
 % yarn migrate
 ```
 
-### migration and tests
+### Migration and Tests
 
 1. migration
 
