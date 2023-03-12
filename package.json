@@ -1,0 +1,15 @@
+{
+  "name": "hello-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "npx prisma migrate dev --name init"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
+  },
+  "dependencies": {
+    "@prisma/client": "4.11.0"
+  }
+}
