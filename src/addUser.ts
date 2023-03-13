@@ -8,7 +8,6 @@ export default async (): Promise<void> => {
     data: {
       name: randomDomain(),
       email: randomEmail(),
-      create_time: new Date(),
     },
   });
 };

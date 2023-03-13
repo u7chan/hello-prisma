@@ -12,6 +12,7 @@
     "@mermaid-js/mermaid-cli": "^10.0.2",
     "@prisma/client": "^4.11.0",
     "prisma": "^4.11.0",
+    "prisma-dbml-generator": "^0.10.0",
     "prisma-erd-generator": "^1.2.5",
     "random-email": "^1.0.3",
     "ts-node": "^10.9.1",
