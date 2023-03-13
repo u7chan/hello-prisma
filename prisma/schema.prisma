@@ -11,9 +11,23 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+generator erd {
+  provider = "prisma-erd-generator"
+  output   = "../ERD.svg"
+}
+
 model User {
-  id     Int     @default(autoincrement()) @id
-  name   String  @db.VarChar(255)
-  email  String  @db.VarChar(255)
-  create_time    DateTime?
+  id          Int       @id @default(autoincrement())
+  name        String    @db.VarChar(255)
+  email       String    @db.VarChar(255)
+  create_time DateTime?
+  author      Group     @relation(fields: [authorId], references: [id])
+  authorId    Int
+}
+
+model Group {
+  id          Int       @id @default(autoincrement())
+  name        String    @db.VarChar(255)
+  users       User[]
+  create_time DateTime?
 }
