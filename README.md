@@ -27,7 +27,11 @@ generate
 
 ### ERD
 
-- [Views](./ERD.md)
+Prisma generator to create an ER Diagram every time you generate your prisma client.
+
+- [prisma-erd-generator](https://www.npmjs.com/package/prisma-erd-generator)
+
+- [Preview](./ERD.md)
 
 ### Tests
 
