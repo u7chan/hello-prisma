@@ -19,6 +19,12 @@ migration
 % yarn migrate
 ```
 
+generate
+
+```zsh
+% yarn generate
+```
+
 ### Migration and Tests
 
 1. migration
@@ -48,6 +54,25 @@ migration
 
 
    ✨  Done in 2.32s.
+   ```
+
+1. generate
+
+   ```zsh
+   % yarn generate
+   yarn run v1.22.19
+   $ prisma generate
+   Environment variables loaded from .env
+   Prisma schema loaded from prisma/schema.prisma
+
+   ✔ Generated Prisma Client (4.11.0 | library) to ./src/generated/client in 145ms
+
+   ✔ Generated Entity-relationship-diagram (1.2.5) to ./ERD.svg in 6.99s
+   You can now start using Prisma Client in your code. Reference: https://pris.ly/d/client
+
+   ...
+
+   ✨  Done in 10.05s.
    ```
 
 1. test
