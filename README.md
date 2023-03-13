@@ -57,18 +57,22 @@ migration
    yarn run v1.22.19
    $ ts-node src/index.ts
    [
-   {
-       id: 1,
-       name: 'wojotfi.chanel',
-       email: 'kivve@okofo.accountant',
-       create_time: 2023-03-12T14:56:51.551Z
-   },
-   {
-       id: 2,
-       name: 'is.capital',
-       email: 'jegcowwo@sedoad.like',
-       create_time: 2023-03-12T14:56:51.951Z
-   }
+     {
+         id: 1,
+         name: 'wojotfi.chanel',
+         email: 'kivve@okofo.accountant',
+         create_time: 2023-03-12T14:56:51.551Z
+     },
+     {
+         id: 2,
+         name: 'is.capital',
+         email: 'jegcowwo@sedoad.like',
+         create_time: 2023-03-12T14:56:51.951Z
+     }
    ]
    ✨  Done in 1.91s.
    ```
+
+### ERD
+
+<img src="./ERD.svg" width="300px" />
