@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@/generated/client';
 
 export default async (): Promise<void> => {
   const prisma = new PrismaClient();
